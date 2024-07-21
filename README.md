@@ -1,0 +1,12 @@
+-Open MongoDB Compass
+-Click on connect
+-Click on Create database
+-Database Name must be library
+-Collection Name books
+-Inside de books collection, click ADD Data
+-Click on Import JSON or CSV file
+-Select the library.book.json
+-Click on Import
+-Now, you must view all the data of the json file
+-Now, you need to create a new collection.
+-This collection must be called genres
