@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6699d0aae6a1e9b0db1a9e3a"
+  },
+  "title": "Lord of the Rings",
+  "author": "John Ronald Reuel Tolkien",
+  "genre": "Biography",
+  "publishedYear": 1955
+},
+{
+  "_id": {
+    "$oid": "669a933b5bb8c1b7da5f5930"
+  },
+  "title": "Versos Satánicos",
+  "author": "Salman Rushdie",
+  "genre": "Fiction",
+  "publishedYear": 1990
+},
+{
+  "_id": {
+    "$oid": "669a9f2c3a9b35e89ef70143"
+  },
+  "title": "El Principito",
+  "author": "Antoine de Saint-Exupéry",
+  "genre": "Fiction",
+  "publishedYear": 1943
+},
+{
+  "_id": {
+    "$oid": "669a9f793a9b35e89ef70144"
+  },
+  "title": "Money, master the game",
+  "author": "Tony Robbins",
+  "genre": "Fiction",
+  "publishedYear": 2005
+}]

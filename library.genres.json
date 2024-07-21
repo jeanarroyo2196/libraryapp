@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fecd"
+  },
+  "name": "Fiction",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fecf"
+  },
+  "name": "Non Fiction",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fed1"
+  },
+  "name": "Fantasy",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fed3"
+  },
+  "name": "Science Fiction",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fed5"
+  },
+  "name": "Mystery",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669d658dd37b04b89352fed7"
+  },
+  "name": "Biography",
+  "__v": 0
+}]
