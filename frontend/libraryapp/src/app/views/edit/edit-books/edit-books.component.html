@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <title>Insert a new Book</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      Edit Book
+    </div>
+    <div class="card-body">
+      <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input id="title" formControlName="title" type="text" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="author">Author:</label>
+          <input id="author" formControlName="author" type="text" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="genre">Genre:</label>
+          <select formControlName="genre" class="form-control" id="genre"
+            name="genre">
+            <option *ngFor="let genre of groupOfGenres" [value]="genre.name">{{genre.name}}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="publishedYear">Published Year:</label>
+          <input id="publishedYear" formControlName="publishedYear" type="number" class="form-control" />
+        </div>
+        <div class="form-group d-flex">
+          <button type="submit" class="btn btn-primary mr-2">Update</button>
+          <button type="button" class="btn btn-danger btn-sm" (click)="returnDetails()">Return</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

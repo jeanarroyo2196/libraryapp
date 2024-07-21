@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections of Books</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      Books Details
+    </div>
+    <div class="card-body">
+      <div>
+        <a [routerLink]="['newBook']" class="btn btn-primary">New Book</a>
+      </div>
+      <div class="table-container">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Published Year</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of booksArray">
+              <td>{{ row.title }}</td>
+              <td>{{ row.author }}</td>
+              <td>{{ row.genre }}</td>
+              <td>{{ row.publishedYear }}</td>
+              <td>
+                <a [routerLink]="['/editBook', row._id]" class="btn btn-warning btn-sm">Edit</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
